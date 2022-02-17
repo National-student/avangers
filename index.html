@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Avangers</title>
+
+    <link rel="stylesheet" href="css/bootstrap-reboot.min.css" />
+    <link rel="stylesheet" href="css/bootstrap-grid.min.css" />
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/main.min.css" />
+  </head>
+  <body>
+   
+      <div class="container">
+
+        <h2>Movies catalog</h2>
+
+        <div class="row g-0">
+          
+          <div class="col-6 col-md-4 pe-5">
+          
+            <form class="mb-5" action="https://echo.htmlacademy.ru">
+
+              <input class="form-control form-control-lg mb-3" type="text" placeholder="Ave" aria-label=".form-control-lg example">
+        
+              <input class="form-control form-control-lg mb-3" type="number" placeholder="5" aria-label=".form-control-lg example">
+                
+              <select class="form-select form-select-lg mb-3" aria-label=".form-select-lg example">
+                <option selected disabled>All</option>
+                <option value="1">One</option>
+                <option value="2">Two</option>
+                <option value="3">Three</option>
+              </select>
+
+              <select class="form-select form-select-lg mb-3" aria-label=".form-select-lg example">
+                <option selected>Rating (high to low)</option>
+                <option value="1">One</option>
+                <option value="2">Two</option>
+                <option value="3">Three</option>
+              </select>
+
+              <button type="button" class="btn btn-primary btn-lg w-100">Search</button>
+
+            </form>
+
+            <h3>Bookmarked movies</h3>
+
+            <div class="col p-3 border rounded-top border-bottom-0 card-body">
+              <h5 class="card-title">Avangers: Infinity war</h5>
+              <a href="#" class="btn btn-danger w-28">Remove</a>
+            </div>
+
+            <div class="col p-3 border rounded-top border-bottom-0 card-body">
+              <h5 class="card-title">The Avangers</h5>
+              <a href="#" class="btn btn-danger w-28">Remove</a>
+            </div>
+
+            <div class="col p-3 border rounded-bottom card-body">
+              <h5 class="card-title">12 years a Slave</h5>
+              <a href="#" class="btn btn-danger w-28">Remove</a>
+            </div>
+          
+          </div>
+        
+          <div class="col-sm-6 col-md-8">
+            <h4>Search result: 39</h4>
+
+            <div class="alert alert-info" role="alert">
+              Use the form on the left to search for a movie
+            </div>
+
+           <div class="d-flex">
+            
+            <div class="card " style="width: 18rem;">
+            
+              <img src="img/qasoskorlar.jfif" class="card-img-top" alt="Avangers">
+            
+              <div class="card-body">
+            
+                <h5 class="card-title bold-title mb-3"><span class="back">Ave</span>ngers: Infinity war</h5>
+
+                  <div class="d-flex mb-2 ms-1">
+                    <img class="me-2" src="img/calendar.png" alt="cal" width="25" height="25">
+                    <p>2018</p>
+                  </div>
+
+                  <div class="d-flex mb-3 ms-2">
+                    <img class="me-2" src="img/star.png" alt="cal" width="25" height="25">
+                    <p>8.7</p>
+                  </div>
+
+                  <div class="d-flex ms-3">
+                    <button type="button" class="btn btn-outline-primary me-4">Watch trailer</button>
+                    <button type="button" class="btn btn-outline-info me-4">More info</button>
+                    <button type="button" class="btn btn-outline-success">Bookmark</button>
+                  </div>
+            
+              </div>
+            
+            </div>
+            
+            <div class="card pe-0" style="width: 18rem;">
+            
+              <img src="img/iron.jfif" class="card-img-top" alt="Avangers">
+            
+              <div class="card-body">
+            
+                <h5 class="card-title bold-title mb-3">The <span class="back">Ave</span> ngers</h5>
+
+                <div class="d-flex mb-2 ms-1">
+                  <img class="me-2" src="img/calendar.png" alt="cal" width="25" height="25">
+                  <p>2012</p>
+                </div>
+
+                <div class="d-flex mb-3 ms-2">
+                  <img class="me-2" src="img/star.png" alt="cal" width="25" height="25">
+                  <p>8.1</p>
+                </div>
+
+                <div class="d-flex ms-3">
+                  <button type="button" class="btn btn-outline-primary me-4">Watch trailer</button>
+                  <button type="button" class="btn btn-outline-info me-4">More info</button>
+                  <button type="button" class="btn btn-outline-success">Bookmark</button>
+                </div>
+            
+              </div>
+            
+            </div>
+           
+          </div>
+
+          <div class="btn-group mt-4" role="group" aria-label="Basic radio toggle button group">
+            <input type="radio" class="btn-check" name="btnradio" id="btnradio1" autocomplete="off" checked>
+            <label class="btn btn-outline-primary" for="btnradio1">1</label>
+
+            <input type="radio" class="btn-check" name="btnradio" id="btnradio2" autocomplete="off" checked>
+            <label class="btn btn-outline-primary" for="btnradio2">2</label>
+          
+            <input type="radio" class="btn-check" name="btnradio" id="btnradio3" autocomplete="off">
+            <label class="btn btn-outline-primary" for="btnradio3">3</label>
+          
+            <input type="radio" class="btn-check" name="btnradio" id="btnradio4" autocomplete="off">
+            <label class="btn btn-outline-primary" for="btnradio4">4</label>
+          </div>
+
+          </div>
+        
+        </div>
+
+      </div>
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/index.js"></script>
+  </body>
+</html>

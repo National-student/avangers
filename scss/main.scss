@@ -1,0 +1,39 @@
+h2 {
+    font-size: 30px;
+    margin: 15px auto;
+    text-align: center;
+}
+
+h3 {
+    font-size: 35px;
+}
+
+.card-title {
+    font-size: 18px;
+}
+
+.btn {
+    font-size: 13px;
+}
+
+.card {
+    width: 400px !important;
+    margin-right: 65px;
+}
+
+.card:last-child {
+    margin-right: 0;
+}
+
+.bold-title {
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.back {
+    background-color: rgb(247, 241, 234);
+}
+
+.btn-group {
+    margin-left: 43%;
+}
